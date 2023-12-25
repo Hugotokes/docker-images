@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sudo apt install docker.io git wget
+
+#now install pxe image from gitrepo.
+
+docker pull ghcr.io/netbootxyz/netbootxyz
